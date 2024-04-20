@@ -1,0 +1,15 @@
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\Sem02.csproj.AssemblyReference.cache
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\Sem02.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\Sem02.AssemblyInfoInputs.cache
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\Sem02.AssemblyInfo.cs
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\Sem02.csproj.CoreCompileInputs.cache
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\bin\Debug\net7.0\Sem02.exe
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\bin\Debug\net7.0\Sem02.deps.json
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\bin\Debug\net7.0\Sem02.runtimeconfig.json
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\bin\Debug\net7.0\Sem02.dll
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\bin\Debug\net7.0\Sem02.pdb
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\Sem02.dll
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\refint\Sem02.dll
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\Sem02.pdb
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\Sem02.genruntimeconfig.cache
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\DivingCSharp\Sem02\obj\Debug\net7.0\ref\Sem02.dll
