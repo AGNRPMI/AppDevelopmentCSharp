@@ -1,0 +1,15 @@
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\bin\Debug\net7.0\Seminar01.exe
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\bin\Debug\net7.0\Seminar01.deps.json
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\bin\Debug\net7.0\Seminar01.runtimeconfig.json
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\bin\Debug\net7.0\Seminar01.dll
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\bin\Debug\net7.0\Seminar01.pdb
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\Seminar01.csproj.AssemblyReference.cache
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\Seminar01.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\Seminar01.AssemblyInfoInputs.cache
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\Seminar01.AssemblyInfo.cs
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\Seminar01.csproj.CoreCompileInputs.cache
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\Seminar01.dll
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\refint\Seminar01.dll
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\Seminar01.pdb
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\Seminar01.genruntimeconfig.cache
+F:\Рабочая папка\Project_CSharp\GB\AppDevelopmentCSharp\Seminar01\obj\Debug\net7.0\ref\Seminar01.dll

@@ -1,101 +1,120 @@
 using System;
-namespace Seminar01
+
+namespace AppDevelopmentCSharp.Seminar01
 {
-    internal class Person
+    public class Person
     {
-        public string Name { get; set; }
-        public DateTime Birthday { get; set; }
-        public readonly int Height;
-        public enum Gender { Male, Female }
-        public Person Mother = null;
-        public Person Father = null;
-        public Person[] Children = null;
-        public Gender Sex { get; set; }
+        private string _name;
+        private DateTime _dateBirth;
+        private int _age;
 
 
-        public Person(string name, DateTime birthday, int heigth)
+        public Person? Father;
+        public Person? Mother;
+        public Person? Partner;
+        public Person[]? Children;
+        public int Age()
         {
-            if (birthday > DateTime.Now)
-            {
-                Console.WriteLine($"Дата рождения {bithday.ToString("dd.MM.yyyy")} не может быть больше чем {DateTime.Now.ToString("dd.MM.yyyy")}");
-                Birthday = DateTime.Now;
-            }
-            else
-            {
-                Birthday = birthday;
-            }
-            Name = name;
-            Height = height;
-        }
-        public Person(string name, int height)
-        {
-            Name = name;
-            Birthday = DateTime.Now;
-            Height = height;
+            _age = DateTime.Now.Year - _dateBirth.Year;
+            return _age;
+
         }
 
-
-
-        public void PrintInfo()
+        public bool IsAdult()
         {
-            Console.WriteLine($"Имя={Name}, день рождения {Birthday.ToString("dd.MM.yyyy")}")
-            }
-        public void AddFamilyInfo(FamilyMember father, FamilyMember mother, params FamilyMember[] children)
+            if (_age >= 18) return true;
+            else return false;
+        }
+
+        public void ChangeInfo(
+            string name,
+            DateTime dateBirth,
+            Person father,
+            Person mother,
+            Person partner,
+            params Person[] children
+            )
         {
+            this._name = name;
+            this._dateBirth = dateBirth;
+            this.Father = father;
+            this.Mother = mother;
+            this.Partner = partner;
+            this.Children = children;
+
+        }
+        public Person(string name) { _name = name; }
+        public Person(
+            string name,
+            DateTime dateBirth,
+            Person father,
+            Person mother,
+            Person partner,
+            params Person[] children)
+        {
+            _name = name;
+            _dateBirth = dateBirth;
             Father = father;
             Mother = mother;
-            children = children;
-        }
-        public bool IsAdult(int adultAge = 18)
-        {
-            var delta = DateTime.Now.Year - Birthday.Year;
-            if (delata > adultAge || (delta == adultAge && DateTime.Now.DayOfYear <= Birthday.DayOfYear))
-            {
-                return true;
-            }
-            else
-                return false;
+            Partner = partner;
+            Children = children;
+
         }
 
-        public bool GetChildren(out Person[] children)
+
+
+        public void PrintInfo(Person person)
         {
-            if (Children != null && Children.Length != 0)
-            {
-                children = Children;
-                return true;
-            }
-            else
-            {
-                children = null;
-                return false;
-            }
-        }
-        public abstract void TakeCare();
-        public virtual void SayHello()
-        {
-            Console.WriteLine("Привет, я человек");
+            Console.Write($"ФИО: {person._name} возраст: {person.Age().ToString()} ");
         }
 
         public void PrintFamilyInfo()
         {
-            if (Father != null)
+            if (Father != null && Mother != null)
+            {
+                Console.Write($"Отец: ");
+                PrintInfo(Father);
+                Console.Write("Мать: ");
+                PrintInfo(Mother);
+            }
+            else if (Father == null && Mother != null)
+            {
+                Console.Write($"Отец: нет данных Мать: ");
+                PrintInfo(Mother);
+            }
+            else if (Father != null && Mother == null)
             {
                 Console.Write("Отец: ");
-                Father.PrintInfo();
+                PrintInfo(Father);
+                Console.Write(" Мать: нет данных ");
             }
-            if (Mother != null)
+            else Console.WriteLine("Отец: нет данных Мать: нет данных");
+            Console.WriteLine("|                        |");
+            Console.WriteLine("|                        |");
+            Console.WriteLine("|                        |");
+            Console.WriteLine("V                        V");
+
+            if (Partner != null)
             {
-                Console.Write("Мать: ");
-                Mother.PrintInfo();
+                Console.Write($"ФИО: {_name} возраст: {Age().ToString()} ------> Супруг:");
+                PrintInfo(Partner);
             }
+            else Console.WriteLine($"ФИО: {_name} возраст: {Age().ToString()} ------> Супруг: нет данных");
+
+            Console.WriteLine("        |");
+            Console.WriteLine("        |");
+            Console.WriteLine("        |");
+            Console.WriteLine("        V");
             if (Children != null && Children.Length > 0)
             {
-                Console.Write("Дети: ");
-                foreach (var child in Children)
+                Console.WriteLine("Дети: ");
+                foreach (Person child in Children)
                 {
-                    child.PrintInfo();
+                    PrintInfo(child);
                 }
             }
+            else Console.WriteLine("дети: нет данных ");
+
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Seminar01
+namespace AppDevelopmentCSharp.Seminar01
 {
     internal class Program
     {
@@ -14,6 +14,92 @@ namespace Seminar01
                 if (isOpen)
                 {
                     PrintTaskDescription();
+                    Person person1 = new Person("new");
+                    Person person2 = new Person("new");
+                    Person person3 = new Person("new");
+                    Person person4 = new Person("new");
+                    Person person5 = new Person("new");
+                    Person person6 = new Person("new");
+                    Person person7 = new Person("new");
+
+                    person1.ChangeInfo(
+                        "олег",
+                        DateTime.Parse("01.01.1960"),
+                        null,
+                        null,
+                        person2,
+                        person3, person4
+
+                    );
+
+                    person2.ChangeInfo(
+                        "марина",
+                        DateTime.Parse("01.01.1965"),
+                        null,
+                        null,
+                        person1,
+                        person3, person4
+
+                    );
+                    person3.ChangeInfo(
+                        "виктор",
+                        DateTime.Parse("01.01.1985"),
+                        person1,
+                        person2,
+                        person5,
+                        person6, person7
+
+                    );
+                    person4.ChangeInfo(
+                        "татьяна",
+                        DateTime.Parse("01.01.1987"),
+                        person1,
+                        person2,
+                        null,
+                        null
+
+                    );
+                    person5.ChangeInfo(
+                        "анна",
+                        DateTime.Parse("01.01.1990"),
+                        null,
+                        null,
+                        person3,
+                        person6, person7
+
+                    );
+                    person6.ChangeInfo(
+                        "сергей",
+                        DateTime.Parse("01.01.2015"),
+                        person3,
+                        person5,
+                        null,
+                        null
+
+                    );
+                    person7.ChangeInfo(
+                        "екатерина",
+                        DateTime.Parse("01.01.2016"),
+                        person3,
+                        person5,
+                        null,
+                        null
+
+                    );
+
+
+
+
+
+
+
+
+
+
+                    person3.PrintInfo(person3);
+                    Console.WriteLine();
+                    person3.PrintFamilyInfo();
+
                     // блок кода для исполнения программы
                     // блок кода для исполнения программы
                     // блок кода для исполнения программы
@@ -75,7 +161,7 @@ namespace Seminar01
             return _isOpen;
         }
 
-        
+
 
 
 
